@@ -13,15 +13,15 @@ o	Stride: 128 tokens
 o	Utilized the SubjQA dataset for fine-tuning
 o	Training script: QuestBot_Implementation.ipynb
 o	Fine-tuning parameters:
-	output_dir: "roberta-finetuned-subjqa-movies_2"
-	evaluation_strategy: "epoch"
-	logging_strategy: "epoch"
-	save_strategy: "epoch"
-	learning_rate: 2e-5
-	num_train_epochs: 5
-	weight_decay: 0.01
-	fp16: True (mixed-precision training)
-3.	Demo Application using Gradio
+--output_dir: "roberta-finetuned-subjqa-movies_2"
+--evaluation_strategy: "epoch"
+--logging_strategy: "epoch"
+--save_strategy: "epoch"
+--learning_rate: 2e-5
+--num_train_epochs: 5
+--weight_decay: 0.01
+--fp16: True (mixed-precision training)
+4.	Demo Application using Gradio
 o	Created an interactive demo application using Gradio
 o	Users can input a question and context to receive insightful answers from the QuestBot model
 
