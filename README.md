@@ -73,9 +73,11 @@ To fine-tune the "deepset/roberta-base-squad2" model on the SubjQA dataset, foll
 
 # Challenges Faced
 •	Handling overlapping answers within the context during fine-tuning.
+
 •	Tuning hyperparameters to balance training speed and model performance.
 
 # Acknowledgments
 This project was completed as part of Course: Neural Network and Large Language Models from Learners Space, IITBombay. 
+
 Special thanks to the all course instructors for providing constant support.
 
