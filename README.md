@@ -14,9 +14,12 @@ o	Maximum context length: 384 tokens
 
 o	Stride: 128 tokens
 
-3.	Model Fine-Tuning
+2.	Model Fine-Tuning
+
 o	Utilized the SubjQA dataset for fine-tuning
+
 o	Training script: QuestBot_Implementation.ipynb
+
 o	Fine-tuning parameters:
 --output_dir: "roberta-finetuned-subjqa-movies_2"
 
@@ -35,13 +38,19 @@ o	Fine-tuning parameters:
 --fp16: True (mixed-precision training)
 
 3.	Demo Application using Gradio
+
 o	Created an interactive demo application using Gradio
+
 o	Users can input a question and context to receive insightful answers from the QuestBot model
 
 # Features
+
 •	Seamlessly fine-tuned model for question-answering task on the SubjQA dataset.
+
 •	Gradio-powered user interface for interactive question-answering.
+
 •	Quick and relevant responses to user queries based on domain-specific reviews.
+
 •	Easy deployment and usage of the QuestBot application.
 
 # Prerequisites
