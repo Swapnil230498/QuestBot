@@ -29,7 +29,7 @@ o	Fine-tuning parameters:
 
 --fp16: True (mixed-precision training)
 
-4.	Demo Application using Gradio
+3.	Demo Application using Gradio
 o	Created an interactive demo application using Gradio
 o	Users can input a question and context to receive insightful answers from the QuestBot model
 
