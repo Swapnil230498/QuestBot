@@ -5,11 +5,16 @@ QuestBot is an AI-powered question-answering system that utilizes the power of t
 # Project Overview
 This project involves three main parts:
 1.	Model Selection and Preprocessing
+
 o	Selected base model: deepset/roberta-base-squad2
+
 o	Tokenizer: AutoTokenizer from the Hugging Face Transformers library
+
 o	Maximum context length: 384 tokens
+
 o	Stride: 128 tokens
-2.	Model Fine-Tuning
+
+3.	Model Fine-Tuning
 o	Utilized the SubjQA dataset for fine-tuning
 o	Training script: QuestBot_Implementation.ipynb
 o	Fine-tuning parameters:
